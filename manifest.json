@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "LibGen Search",
+  "description": "Quickly search LibGen for the selected text",
+  "version": "1.0.0",
+  "host_permissions": ["https://libgen.is/*", "https://libgen.rs/*", "https://libgen.st/*"],
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

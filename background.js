@@ -21,7 +21,7 @@ async function checkMirrors() {
     }
   }
   
-  throw new Error('No LibGen mirrors are online. Create an issue at https://github.com/ky-ler/libgen-search/issues/new');
+  throw new Error('No LibGen mirrors are online. Create an issue at https://github.com/ky-ler/libgen_search_chrome_extension/issues/new');
 }
 
 async function handleClick(info) {
